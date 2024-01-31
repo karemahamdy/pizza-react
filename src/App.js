@@ -120,7 +120,6 @@ function Footer(){
   const closeHour = 22;
   const isOpen = hour >= openHour && hour <= closeHour;
 
-  const style = {};
   return (
     <footer className="footer">
       {isOpen? (
